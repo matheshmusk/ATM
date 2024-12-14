@@ -1,0 +1,7 @@
+create database atm;
+use atm;
+create table atm( acc int,pin int,acname varchar(20),balance int);
+insert into atm values(001,1234,'MANOJ',25000),(002,1235,'PREM',20000),(003,1236,'ARUN',15000),(004,1237,'GOKUL',18000),
+(005,1238,'ARJUN',32000);
+SELECT *
+FROM atm;
